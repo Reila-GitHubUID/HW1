@@ -7,27 +7,43 @@ header {
 h1 {
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    margin: 0;
     padding: 10px;
+    border: 500px;
+    margin: 0 775px 0 15%;
 }
 
 h2 {
     color: #4aaaa5;
+    border-bottom: 2px solid #777777;
+    padding-bottom: 2%;
 }
 
+/* headerTopRight contains "About", "Portfolio", and "Contact" links that would direct users to different pages that has the same h1, headerTopRight, and footer information*/
 .headerTopRight {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    margin: 0;
 }
 
 .container {
     background: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    border-color: #dddddd;
+    border-color: #f36363;
+    margin: 0 15% 5% 15%;
 }
 
+/************* These are the CSS codes for profile-img.html ***************/
+.profile-img {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+/************* These are the CSS codes for contact.html ***************/
+form {
+    width: 700px;
+}
+
+/* This is the footer of the page */
 footer {
     background-color: #666666;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
