@@ -32,17 +32,22 @@ h2 {
     color: #777777;
     margin: 0 15% 5% 15%;
     width: 960px;
+    text-align: left;
 }
 
-/************* These are the CSS codes for profile-img.html ***************/
+/************* 
+These are the CSS codes for profile-img class in index.html 
+***************/
 .profile-img {
     float: left;
     margin: 0 15px 0 0;
 }
-/************* END:: These are the CSS codes for profile-img.html ***************/
+/************* END:: These are the CSS codes for profile-img class in index.html ***************/
 
 
-/************* These are the CSS codes for contact.html ***************/
+/************* 
+These are the CSS codes for contact.html 
+***************/
 input[type=text] {
     width: 960px;
 }
@@ -59,6 +64,20 @@ input[type=submit] {
     padding: 2px 7px 2px 7px;
 }
 /************* END:: These are the CSS codes for contact.html ***************/
+
+
+/************* 
+These are the CSS codes for portfolio.html 
+***************/
+.row{
+    margin: 20px 10px 20px 0;
+}
+
+.align-img {
+    float: left;
+    margin: 0 15px 0 0;
+}
+/************* END:: These are the CSS codes for portfolio.html ***************/
 
 /* This is the footer of the page */
 footer {
