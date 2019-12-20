@@ -71,10 +71,14 @@ These are the CSS codes for portfolio.html
 ***************/
 .column{
     float: left;
-    width: 33.33%;
-    padding-right: 100px;
-    padding-bottom: 20px;
-    /* margin: 0 20px 0 0; */
+    width: 350px;
+    padding-right: 50px;
+    margin-bottom: 0;
+}
+
+img {
+    width: 350px;
+    height: 300px;
 }
 
 /* Clear floats after the columns */
@@ -83,6 +87,17 @@ These are the CSS codes for portfolio.html
     display: table;
     clear: both;
   }
+
+.text-block {
+    position: relative;
+    bottom: 90px;
+    /* right: 20px; */
+    background-color: #4aaaa5;
+    color: white;
+    padding: 3px 20px 3px 20px;
+    width: 310px;
+    text-align: center;
+}
 
 /************* END:: These are the CSS codes for portfolio.html ***************/
 
